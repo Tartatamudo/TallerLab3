@@ -35,8 +35,4 @@ public class Menu {
         producto.setNombre(nombre);
         producto.setPrecio(precio);
     }
-
-    public static void main(String[] args) {
-        menu();
-    }
 }
