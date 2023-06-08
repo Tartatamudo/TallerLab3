@@ -1,4 +1,4 @@
-package Package;
+package Paquete;
 
 import java.util.ArrayList;
 import java.util.Scanner;
