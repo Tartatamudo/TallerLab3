@@ -9,6 +9,10 @@ public class Vendedor {
 	private ArrayList<Pedido> pedidos = new ArrayList<Pedido>();
 	private ArrayList<Producto> productos = new ArrayList<Producto>();
 
+	public Vendedor(String nombre) {
+		this.nombre = nombre;
+	}
+
 	public void AgregarPedido() {
 		Pedido pedido = new Pedido();
 		int num = 1;
